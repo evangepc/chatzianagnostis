@@ -123,6 +123,17 @@ header ion-icon:hover{
   color: #B7C61E;
 }
 /*-----------------------------------*/
+/*  section-cow  */
+/*-----------------------------------*/
+.section-cow{
+  background-image: url(img/cow.png);
+  background-size: 500px;
+  background-position: center;
+  height: 80vh;
+  background-repeat: no-repeat;
+
+}
+/*-----------------------------------*/
 /*  gotop  */
 /*-----------------------------------*/
 .gotop:link,
