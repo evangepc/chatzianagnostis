@@ -19,7 +19,7 @@ body{
 /*REUSABLE COMPONENTS*/
 /*-----------------------------------*/
 .row{
-  max-width: 1140px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -123,9 +123,58 @@ header ion-icon:hover{
   color: #B7C61E;
 }
 /*-----------------------------------*/
-/*  section-cow  */
+/*  section-animals  */
 /*-----------------------------------*/
-.section-cow{
+.content1{
+  background-image: url(img/cow.png);
+  background-size: 700px;
+  background-position: center;
+  height: 50vh;
+  background-repeat: no-repeat;
+}
+.section-animals p{
+  border: 2px solid #000;
+}
+.section-animals li{
+  list-style: none;
+}
+.box-conl:hover{
+  border-left: 3px solid #B7C61E;
+  padding-left: 5px;
+}
+.box-conr:hover{
+  border-right: 3px solid #B7C61E;
+  padding-right: 5px;
+}
+.content2{
+  background-image: url(img/cow.png);
+  background-size: 700px;
+  background-position: center;
+  height: 50vh;
+  background-repeat: no-repeat;
+}
+.content3{
+  background-image: url(img/cow.png);
+  background-size: 500px;
+  background-position: center;
+  height: 80vh;
+  background-repeat: no-repeat;
+
+}.content4{
+  background-image: url(img/cow.png);
+  background-size: 500px;
+  background-position: center;
+  height: 80vh;
+  background-repeat: no-repeat;
+}
+.content5{
+  background-image: url(img/cow.png);
+  background-size: 500px;
+  background-position: center;
+  height: 80vh;
+  background-repeat: no-repeat;
+}
+.content6{
   background-image: url(img/cow.png);
   background-size: 500px;
   background-position: center;
