@@ -1,0 +1,35 @@
+html{
+  scroll-behavior: smooth;
+}
+
+.gotop:link,
+.gotop:visited{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #B7C61E;
+  bottom: 40px;
+  right: 50px;
+  border-radius: 200px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+}
+.gotop:hover,
+.gotop:active{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 40px;
+  right: 50px;
+  border-radius: 200px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  background-color: #94A10C;
+}
+.gotop ion-icon{
+  font-size: 32px;
+  color: #fff;
+  margin-top: 10px;
+}

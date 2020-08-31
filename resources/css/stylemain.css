@@ -7,7 +7,6 @@
 
 html,
 body{
-  scroll-behavior: smooth;
   background-color: #fff;
   color: #000;
   font-family: "Montserrat", "Arial", "sans-serif";
@@ -215,39 +214,67 @@ header ion-icon:hover{
   padding-top: 10px;
   transition: border 0.2s;
 }
+
 /*-----------------------------------*/
-/*  gotop  */
+/*  section-contact  */
 /*-----------------------------------*/
-.gotop:link,
-.gotop:visited{
-  position: fixed;
-  width: 50px;
-  height: 50px;
+
+.wrapper{
+  margin-top: 220px;
+  margin-left: auto;
+  transform: translate(-50%,-50%);
+  max-width: 350px;
+  width: 50%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px #B7C61E;
+  outline: none;
+}
+
+.wrapper p{
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+  color: #B7C61E;
+}
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+.wrapper .button input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
   background: #B7C61E;
-  bottom: 40px;
-  right: 50px;
-  border-radius: 200px;
-  text-decoration: none;
-  text-align: center;
-  line-height: 50px;
-}
-.gotop:hover,
-.gotop:active{
-  position: fixed;
-  width: 50px;
-  height: 50px;
-  bottom: 40px;
-  right: 50px;
-  border-radius: 200px;
-  text-decoration: none;
-  text-align: center;
-  line-height: 50px;
-  background-color: #94A10C;
-}
-
-
-.gotop ion-icon{
-  font-size: 32px;
   color: #fff;
-  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
 }

@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head lang="el">
     <link rel="icon " href="resources/img/fabicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
     <link rel="stylesheet" type="text/css" href="resources/css/stylemain.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/gotopbutton.css">
     <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap" rel="stylesheet">
     <title>Χατζηαναγνώστης</title>
@@ -69,7 +70,39 @@
         </div>
       </div>
     </section>
+    <section class="section-contact">
+      <h2>Επικοινωνία</h2>
+      <div class="col span-1-of-2 dig">
+        <div class="wrapper">
+          <p>Φόρμα Επικοινωνίας</p>
+          <div id="error-message"></div>
+          <form id="myform" onsubmit="return validate();">
+            <div class="input_field">
+              <input type="text" placeholder="όνομα" id="name">
+            </div>
+            <div class="input_field">
+              <input type="text" placeholder="Θέμα" id="subject">
+            </div>
+            <div class="input_field">
+              <input type="text" placeholder="Τηλέφωνο" id="phone">
+            </div>
+            <div class="input_field">
+              <input type="text" placeholder="Email" id="email">
+            </div>
+            <div class="input_field">
+              <textarea placeholder="Γράψε μας το μήνυμά σου!" id="Message"></textarea>
+            </div>
+            <div class="button">
+              <input type="submit">
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col span-1-of-2 dig">
+      </div>
+    </section>
     <a class="gotop" href="#"><ion-icon name="chevron-up-outline"></ion-icon></a>
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="resources/js/contactform.js"></script>
   </body>
 </html>
