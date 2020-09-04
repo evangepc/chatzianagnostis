@@ -14,7 +14,7 @@
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited{
   padding:16px 0;
-  color: #000;
+  color: #333;
 }
 .sticky .logo{
   height: 50px;

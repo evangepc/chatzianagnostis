@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head lang="el">
-    <link rel="icon " href="resources/img/fabicon.ico" type="image/x-icon">
+    <meta charset="iso-8859-7">
+    <meta charset="utf-8">
+
+    <link rel="icon" href="resources/img/fabicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
-    <link rel="stylesheet" type="text/css" href="resources/css/stylemain.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
     <link rel="stylesheet" type="text/css" href="resources/css/gotopbutton.css">
     <link rel="stylesheet" type="text/css" href="resources/css/sticky.css">
-    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap" rel="stylesheet">
     <title>Χατζηαναγνώστης</title>
   </head>
   <body>
     <header>
       <nav>
-      <a href="index.html"><img src="resources/img/logo.png" alt="Chatzianagnostis logo" class="logo"></a>
-        <ul class="main-nav">
-          <li><a href="#">Προϊόντα &amp; Υπηρεσίες</a></li>
-          <li><a href="#">Ποίοι Είμαστε</a></li>
-          <li><a href="#">Επικοινωνία</a></li>
-        </ul>
+        <div class="row">
+          <a href="index.html"><img src="resources/img/logo.png" alt="Chatzianagnostis logo" class="logo"></a>
+          <ul class="main-nav">
+            <li><a href="#">Προϊόντα &amp; Υπηρεσίες</a></li>
+            <li><a href="#">Ποίοι Είμαστε</a></li>
+            <li><a href="#">Σημεία Πώλησης</a></li>
+            <li><a href="#">Επικοινωνία</a></li>
+          </ul>
+        </div>
       </nav>
       <div class="hero">
         <h1>Κοντά στον Κτηνοτρόφο,<br>με ζωοτροφές υψηλής ποιότητας.</h1>
@@ -27,52 +32,139 @@
     </header>
     <section class="section-features js--section-features">
       <div class="row">
-        <h2>Τα Προϊόντα &amp; Οι Υπηρεσίες Μας</h2>
+        <h2>Τα Προϊόντα &mdash; Οι Υπηρεσίες Μας</h2>
         <p class="long-copy">
           εδω γράφει λιγα πραγματα για εμας τον τροπο που δουλευουμε και αλλες τετοιες μαλακιτσεσ. κατω απο τα ικον πρεπει να γραψουμε λιγο ακομα αλλιως μαλακιζομαστε
         </p>
       </div>
       <div class="row">
         <div class="col span-1-of-5 box">
-          <a href="food.html"><ion-icon name="restaurant-outline"></ion-icon>
+          <ion-icon name="restaurant-outline"></ion-icon>
           <h3>Φυράματα</h3>
           <p>
             Εξιδανικευμένα για τις ανάγκες των ζώον σας.
-          </p></a>
+          </p>
         </div>
         <div class="col span-1-of-5 box">
-          <a href="#"><ion-icon name="barbell-outline"></ion-icon>
+          <ion-icon name="barbell-outline"></ion-icon>
           <h3>Ισορροπιστές</h3>
           <p>
             Γαλακτοπαραγωγής, Παχυνσης, Ανάπτυξης.
-          </p></a>
+          </p>
         </div>
         <div class="col span-1-of-5 box">
-          <a href="#"><ion-icon name="medkit-outline"></ion-icon>
+          <ion-icon name="medkit-outline"></ion-icon>
           <h3>Φάρμακα</h3>
           <p>
             Κατόπιν Παραγγελίας
-          </p></a>
+          </p>
         </div>
         <div class="col span-1-of-5 box">
-          <a href="#"><ion-icon name="cart-outline"></ion-icon>
+          <ion-icon name="cart-outline"></ion-icon>
           <h3>Παράδοση</h3>
           <p>
             Διαθέτουμε έναν ευρή στόλο επιβατηγών.
-          </p></a>
+          </p>
         </div>
         <div class="col span-1-of-5 box">
-          <a href="#"><ion-icon name="cash-outline"></ion-icon>
+          <ion-icon name="cash-outline"></ion-icon>
           <h3>Καλές Τίμες</h3>
           <p>
             Δυνατές τιμές με κορυφαία ποιότητα.
-          </p></a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section-category">
+        Εδω θα μπουν flexbox με φωτο απο ζώο και οταν θα πατας θα εμφανίζονται
+         στην οθόνη τα φυραματα και οι ισσοροπιστες
+    </section>
+    <section class="section-we">
+      <div class="row">
+        <h2>Ποίοι Είμαστε</h2>
+        <div class="col span-1-of-2 we-copy">
+          <h3>Κοντά σας από το 2014!</h3>
+          <hr/>
+          <p>
+            Η εταιρία Αναγνώστης Π. Χατζηαναγνώστης ζωοτροφών βρίσκεται δίπλα
+            στον κτηνοτρόφο απο το 2014, παράγωντας υψηλής ποιότητας φυράματα και
+            ισσοροπιστές βοηθώντας τα ζώα σας να παράξουν στο μέγιστο των
+            δυνατοτήτων τους.Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+             dolor in reprehenderit in voluptate velit esse cillum dolore eu
+             fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+             proident, sunt in culpa qui officia deserunt mollit anim id est
+             laborum.
+          </p>
+          <hr/>
+        </div>
+          <img src="resources/img/we.jpg" alt="we.photo">
+      </div>
+    </section>
+    <section class="section-cities">
+      <div class="row">
+        <h2>Που θα μας βρείτε</h2>
+      </div>
+    </section>
+    <section class="section-testimonials">
+      <div class="row">
+        <h2>Τι είπαν για εμάς</h2>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-3">
+          <blockquote>
+            &ldquo;Omnifood is just awesome! I just launched a startup which leaves me
+             with no time for cooking, so Omnifood is a life-saver. Now that I
+              got used to it, I couldn't live without my daily meals!&rdquo;
+              <cite><img src="resources/img/customer-1.jpg" alt="Albert">Alberto Duncan</cite>
+          </blockquote>
+        </div>
+        <div class="col span-1-of-3">
+          <blockquote>
+          &ldquo;Inexpensive, healthy and great-tasting meals, delivered right to my
+           home. We have lots of food delivery here in Lisbon, but no one comes
+            even close to Omifood. Me and my family are so in love!&rdquo;
+              <cite><img src="resources/img/customer-2.jpg" alt="Joanna">Joana Silva</cite>
+          </blockquote>
+        </div>
+        <div class="col span-1-of-3">
+          <blockquote>
+            &ldquo;I was looking for a quick and easy food delivery service in San
+             Franciso. I tried a lot of them and ended up with Omnifood. Best
+              food delivery service in the Bay Area. Keep up the great work!&rdquo;
+              <cite><img src="resources/img/customer-3.jpg" alt="Milton">Milton Chapman</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+    <section class="section-contact">
+      <div class="row">
+        <h2>Επικοινωνία</h2>
+        <h3>Μπορείς να επικοινωνήσεις μαζί μας με τους παρακάτω τρόπους:</h3>
+        <div class="row pad">
+          <div class="col span-1-of-2">
+          <ion-icon name="mail-outline"></ion-icon><p>chatzianagnostis@gmail.com</p>
+        </div>
+          <div class="col span-1-of-2">
+            <ion-icon name="call-outline"></ion-icon>
+            <p>
+              <ul>
+                <li>Κιλκίς : 23410 51 383</li>
+                <li>Σοχός : 6987 978 064</li>
+                <li>Τρίγλια : 6987 978 015</li>
+                <li>Γαλάτιστα : 6949 302 206</li>
+                <li>Λαγκαδάς : 23940 22 245/242</li>
+              </ul>
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
-
     <a class="gotop" href="#"><ion-icon name="chevron-up-outline"></ion-icon></a>
+
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="resources/js/script.js"></script>

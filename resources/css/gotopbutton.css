@@ -1,7 +1,9 @@
 html{
   scroll-behavior: smooth;
 }
-
+.gotop{
+  display: none;
+}
 .gotop:link,
 .gotop:visited{
   position: fixed;
