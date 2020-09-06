@@ -183,8 +183,8 @@ h2:after{
   font-size: 64px;
   display: block;
   color: #B7C61E;
-  margin-left: 100px;
-
+  margin-left: 550px;
+  margin-bottom: 12px;
 }
 
 
@@ -298,23 +298,39 @@ cite img{
   background-color: #F5F6E8;
 }
 
-.section-contact .pad{
-  padding-top: 3%;
-  padding-left: 15%;
-}
-
-.section-contact p{
-  padding-top: 3%;
-}
-
 .section-contact h3{
   text-align: center;
 }
-
+.section-contact .pad{
+  text-align: center;
+  margin: 30px 0;
+}
 .section-contact ul{
-  list-style:none;
+  list-style: none;
+}
+/*-----------------------------------*/
+/*Form*/
+/*-----------------------------------*/
+.contact-form{
+  width:60%;
+  margin: 0 auto;
 }
 
-.section-contact li{
-  line-spacing: 4px;
+input[type=text],
+input[type=email],
+select,
+textarea{
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
 }
+
+textarea{
+  height: 100px;
+}
+
+input[type=checkbox]{
+  margin: 10px 5px 10px 0;
+}
+*:focus{outline: none;}

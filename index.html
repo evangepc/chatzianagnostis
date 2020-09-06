@@ -144,23 +144,55 @@
         <h2>Επικοινωνία</h2>
         <h3>Μπορείς να επικοινωνήσεις μαζί μας με τους παρακάτω τρόπους:</h3>
         <div class="row pad">
-          <div class="col span-1-of-2">
-          <ion-icon name="mail-outline"></ion-icon><p>chatzianagnostis@gmail.com</p>
+          <ion-icon name="mail-outline"></ion-icon>chatzianagnostis@gmail.com
         </div>
-          <div class="col span-1-of-2">
-            <ion-icon name="call-outline"></ion-icon>
-            <p>
-              <ul>
-                <li>Κιλκίς : 23410 51 383</li>
-                <li>Σοχός : 6987 978 064</li>
-                <li>Τρίγλια : 6987 978 015</li>
-                <li>Γαλάτιστα : 6949 302 206</li>
-                <li>Λαγκαδάς : 23940 22 245/242</li>
-              </ul>
-            </p>
-          </div>
+        <div class="row pad">
+          <ion-icon name="call-outline"></ion-icon>
+          <ul>
+            <li>Κιλκίς : 23410 51 383</li>
+            <li>Σοχός : 6987 978 064</li>
+            <li>Τρίγλια : 6987 978 015</li>
+            <li>Γαλάτιστα : 6949 302 206</li>
+            <li>Λαγκαδάς : 23940 22 245/242</li>
+          </ul>
         </div>
       </div>
+      <div class="row">
+        <form method="post" action="#" class="contact-form">
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label for="name">Όνομα:</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input type="text" name="name" id="name" placeholder="Το όνομα σου" required>
+            </div>
+          </div>
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label for="email">Email:</label>
+              </div>
+              <div class="col span-2-of-3">
+                <input type="email" name="email" id="email" placeholder="Το email σου" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label>Τι σε ενδιαφέρει να μάθεις:</label>
+              </div>
+              <div class="col span-2-of-3">
+                <textarea name="message" placeholder="Το μήνυμά σου"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label>&nbsp;</label>
+              </div>
+              <div class="col span-2-of-3">
+                <input type="submit" value="Στείλε!">
+              </div>
+            </div>
+          </form>
+        </div>
     </section>
 
     <a class="gotop" href="#"><ion-icon name="chevron-up-outline"></ion-icon></a>
