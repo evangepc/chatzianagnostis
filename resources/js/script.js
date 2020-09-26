@@ -13,5 +13,12 @@ $(document).ready(function(){
       offset: '60px;'
     });
 
-
+    /*Slider*/
+    $('#autoWidth').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth').removeClass('cS-hidden');
+        }
+    }); 
 });

@@ -224,15 +224,69 @@ h2:after{
 /*  section-category  */
 /*-----------------------------------*/
 
+.section-category{
+  background-color: #F5F6E8;
+  padding-top: 0px;
+}
 
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-box{
+  width: 350px;
+  height: 450px;
+  background-color: #B7C61E;
+  border-radius: 10px;
+  box-shadow: 2px 10px 12px RGBA(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: 20px 10px;
+}
+
+.slider-box:hover{
+  background-color: #94A10C;
+  transform-style: preserve-3d;
+  transform: scale(1.02);
+  transition: all ease 0.3s;
+}
+
+.model{
+  height: auto;
+  width: auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.details p{
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.animals{
+  color: #333;
+  font-weight: bold;
+  letter-spacing:  2px;
+  font-size: 180%;
+}
 
 /*-----------------------------------*/
 /*  section-we  */
 /*-----------------------------------*/
-
-.section-we{
-  background-color: #F5F6E8;
-}
 
 .section-we h3{
   padding-top: 13px;
@@ -257,6 +311,9 @@ h2:after{
 /*  section-cities  */
 /*-----------------------------------*/
 
+.section-cities{
+  background-color: #F5F6E8;
+}
 
 
 /*-----------------------------------*/
@@ -330,7 +387,4 @@ textarea{
   height: 100px;
 }
 
-input[type=checkbox]{
-  margin: 10px 5px 10px 0;
-}
 *:focus{outline: none;}
